@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIW 2.2 Formularios</title>
+</head>
+<body>
+
+    <h1>DIW Formularios 2.2</h1>
+    <hr>
+    <form action="prueba.html" method="post">
+        <fieldset>
+            <label>Nombre:
+            <input type="text" maxlength=40 pattern="^[a-zA-Z0-9]*$" placeholder="Solo letras y números">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>Código Postal:
+            <input type="number" max=99999 >
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Botones</legend>
+            <button type="submit">Enviar</button> 
+            <button type="reset">Limpiar</button> 
+        </fieldset> 
+    </form>
+</body>
+</html>
